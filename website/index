@@ -155,12 +155,11 @@
         <!-- Sidebar  -->
         <aside class="portfolio-info">
           <h3>About Me</h3>
-          <p>Second-year student focused on front-end development. These projects were built while learning Flexbox and CSS Grid.</p>
+          <p>Second-year student. Software Engineering.</p>
           <h4>Skills</h4>
           <ul>
             <li>HTML &amp; CSS</li>
             <li>Flexbox &amp; Grid</li>
-            <li>JavaScript basics</li>
             <li>Git &amp; GitHub</li>
           </ul>
         </aside>
