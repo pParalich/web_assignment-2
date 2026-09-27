@@ -20,7 +20,7 @@
 
   <main>
 
-    <!-- Task 1: Card Row -->
+    <!-- Task 1 -->
     <section class="card-row">
 
       <div class="card">
@@ -51,13 +51,56 @@
       </div>
 
     </section>
-      
+    <!--Task - 2-->
     <section class="grid-demo">
       <div class="grid-layout">
         <header class="g-header">Header</header>
         <aside class="g-sidebar">Sidebar</aside>
         <section class="g-main">Main Content</section>
         <footer class="g-footer">Footer</footer>
+      </div>
+    </section>
+        <!-- Task - 3 -->
+    <section class="gallery-demo">
+      <div class="gallery">
+
+        <div class="gallery-item">
+          <img src="../Images/liblary.png" alt="Gallery image 1">
+          <div class="gallery-caption">Liblary View</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/mountain.png" alt="Gallery image 2">
+          <div class="gallery-caption">Mountain View</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/ocean.png" alt="Gallery image 3">
+          <div class="gallery-caption">Ocean View</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/volcano.png" alt="Gallery image 4">
+          <div class="gallery-caption">Volcano View</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/forest.png" alt="Gallery image 5">
+          <div class="gallery-caption">Forest View</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/sky.png" alt="Gallery image 6">
+          <div class="gallery-caption">Sky Sunset</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/dog.png" alt="Gallery image 7">
+          <div class="gallery-caption">Talant Puppy</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/cat.jpg" alt="Gallery image 8">
+          <div class="gallery-caption">Cat</div>
+        </div>
+        <div class="gallery-item">
+          <img src="../Images/bunny.png" alt="Gallery image 9">
+          <div class="gallery-caption">Bunny</div>
+        </div>
+
       </div>
     </section>
   </main>
