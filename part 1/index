@@ -21,6 +21,7 @@
   <main>
 
     <!-- Task 1 -->
+     <h2 class="section-title">Task 1</h2>
     <section class="card-row">
 
       <div class="card">
@@ -52,6 +53,7 @@
 
     </section>
     <!--Task - 2-->
+    <h2 class="section-title">Task 2</h2>
     <section class="grid-demo">
       <div class="grid-layout">
         <header class="g-header">Header</header>
@@ -60,7 +62,8 @@
         <footer class="g-footer">Footer</footer>
       </div>
     </section>
-        <!-- Task - 3 -->
+     <!-- Task - 3 -->
+     <h2 class="section-title">Task 3</h2>
     <section class="gallery-demo">
       <div class="gallery">
 
@@ -90,7 +93,7 @@
         </div>
         <div class="gallery-item">
           <img src="../Images/dog.png" alt="Gallery image 7">
-          <div class="gallery-caption">Talant Puppy</div>
+          <div class="gallery-caption">Talent Puppy</div>
         </div>
         <div class="gallery-item">
           <img src="../Images/cat.jpg" alt="Gallery image 8">
@@ -103,6 +106,71 @@
 
       </div>
     </section>
+
+     <!-- Task 4 -->
+    <h2 class="section-title">Task 4</h2>
+    <section class="portfolio-demo">
+      <div class="portfolio-layout">
+
+        <div class="portfolio-projects">
+
+          <div class="project-card">
+            <img src="../Images/job_tracker.png" alt="Project one">
+            <div class="project-body">
+              <h3>Student Job Tracker</h3>
+              <p>Lets students track job applications and their status in one place.</p>
+              <button>View project</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="../Images/budget.png" alt="Project two">
+            <div class="project-body">
+              <h3>Budget Tracker</h3>
+              <p>Monthly budgeting tool with charts and spending categories.</p>
+              <button>View project</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="../Images/receipt.png" alt="Project three">
+            <div class="project-body">
+              <h3>Recipe Box</h3>
+              <p>Searchable recipe collection with tags for diet and cook time.</p>
+              <button>View project</button>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="../Images/trail.png" alt="Project four">
+            <div class="project-body">
+              <h3>Trail Map App</h3>
+              <p>Tracks hikes and lets users share routes with friends.</p>
+              <button>View project</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sidebar  -->
+        <aside class="portfolio-info">
+          <h3>About Me</h3>
+          <p>Second-year student focused on front-end development. These projects were built while learning Flexbox and CSS Grid.</p>
+          <h4>Skills</h4>
+          <ul>
+            <li>HTML &amp; CSS</li>
+            <li>Flexbox &amp; Grid</li>
+            <li>JavaScript basics</li>
+            <li>Git &amp; GitHub</li>
+          </ul>
+        </aside>
+
+      </div>
+    </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 My Portfolio. Built with Flexbox &amp; Grid.</p>
+  </footer>
   </main>
 
 </body>

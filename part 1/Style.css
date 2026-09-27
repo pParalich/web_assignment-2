@@ -45,7 +45,6 @@ body {
 }
 
 /* task 1 */
-
 .card-row {
   display: flex;
   gap: 24px;
@@ -210,4 +209,144 @@ body {
 
 .gallery-item:hover img {
   transform: scale(1.08);
+}
+
+/*Task 4: Portfolio Page (Flexbox + Grid combined) */
+
+.portfolio-demo {
+  padding: 0 40px 48px;
+}
+
+.portfolio-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.portfolio-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+}
+
+.project-body h3 {
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.project-body p {
+  flex: 1;
+  color: #555;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.project-body button {
+  align-self: flex-start;
+  padding: 6px 14px;
+  background-color: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.project-body button:hover {
+  background-color: #374151;
+}
+
+.portfolio-info {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.portfolio-info h3 {
+  margin-bottom: 10px;
+}
+
+.portfolio-info h4 {
+  margin: 16px 0 8px;
+  font-size: 0.95rem;
+}
+
+.portfolio-info p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.portfolio-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.site-footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+} 
+
+
+/*Section separation*/
+
+.section-title {
+  padding: 32px 40px 0;
+  font-size: 1.3rem;
+  color: #1f2937;
+  border-top: 2px solid #e5e7eb;
+  margin-top: 16px;
+}
+
+.card-row + .section-title,
+.grid-demo + .section-title,
+.gallery-demo + .section-title {
+  margin-top: 0;
+}
+
+img {
+  max-width: 150%;
+  display: block;
+}
+
+main {
+  max-width: 960px;   
+  margin: 0 auto;   
 }
