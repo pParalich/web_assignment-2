@@ -110,3 +110,56 @@ body {
 .card-body button:hover {
   background-color: #374151;
 }
+
+/* Task 2 */
+
+.grid-demo {
+  padding: 0 40px 48px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 80px 1fr 60px;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+  gap: 16px;
+  min-height: 500px;
+}
+
+.g-header {
+  grid-area: header;
+  background-color: #1f2937;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  border-radius: 6px;
+}
+
+.g-sidebar {
+  grid-area: sidebar;
+  background-color: #e5e7eb;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.g-main {
+  grid-area: main;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.g-footer {
+  grid-area: footer;
+  background-color: #1f2937;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}

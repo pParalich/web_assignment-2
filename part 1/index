@@ -51,7 +51,15 @@
       </div>
 
     </section>
-
+      
+    <section class="grid-demo">
+      <div class="grid-layout">
+        <header class="g-header">Header</header>
+        <aside class="g-sidebar">Sidebar</aside>
+        <section class="g-main">Main Content</section>
+        <footer class="g-footer">Footer</footer>
+      </div>
+    </section>
   </main>
 
 </body>
