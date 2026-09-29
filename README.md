@@ -2,8 +2,8 @@
 
 - ### Tleubay Abilmansur
 - ### SE2540
-- ### Live Site:
-- ### Repository:
+- ### Live Site: https://pparalich.github.io/web_assignment-2/
+- ### Repository: https://github.com/pParalich/web_assignment-2 
 
 ---
 # Task 0
